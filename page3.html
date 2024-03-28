@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+
+  <title>Survey Form - Page 3</title>
+  <style>
+  body {
+     background-color:grey;
+	font-family:Bahnschrift SemiBold Condensed;
+	width:70vw;
+	height:70vh;
+	background-image:url("https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltc26f9c24cce8b3cd/6360ffe5016efc5347f921b3/GettyImages-1243553711.jpg?auto=webp&format=pjpg&width=1200&quality=60");
+	background-position:center;
+	background-size:cover;
+    }
+	function gotopreviouspage(){
+	window.history.back();
+	}
+</style>
+</head>
+<body>
+  <h2>KNOW HISTORY OF FOOTBALL</h2>
+  <form action="page4.html" method="post">
+    <p>1. Which country won the first-ever FIFA World Cup in 1930?</p>
+            <input type="radio" name="question1" value="a"> Brazil<br>
+            <input type="radio" name="question1" value="b"> Uruguay<br>
+            <input type="radio" name="question1" value="c"> Italy<br>
+            <input type="radio" name="question1" value="d"> Argentina<br>
+
+            <p>2. Who is the all-time leading goal scorer in the English Premier League?</p>
+            <input type="radio" name="question2" value="a"> Thierry Henry<br>
+            <input type="radio" name="question2" value="b"> Wayne Rooney<br>
+            <input type="radio" name="question2" value="c"> Alan Shearer<br>
+            <input type="radio" name="question2" value="d"> Cristiano Ronaldo<br>
+
+            <p>3. Which player has won the most FIFA Ballon d'Or awards?</p>
+            <input type="radio" name="question3" value="a"> Lionel Messi<br>
+            <input type="radio" name="question3" value="b"> Cristiano Ronaldo<br>
+            <input type="radio" name="question3" value="c"> Diego Maradona<br>
+            <input type="radio" name="question3" value="d"> Pelé<br>
+
+    <input type="submit" value="Next">
+	<button type="button" onclick="gotopreviouspage()">previous</button>
+  </form>
+</body>
+</html>
